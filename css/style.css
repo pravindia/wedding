@@ -1,0 +1,51 @@
+body{
+   margin: 0;
+}
+.one{
+   background-image: url('../img/anne-edgar-119384.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.two{
+   background-image: url('../img/abigail-jones-439387.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.three{
+   background-image: url('../img/the-phope-355065.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.four{
+   background-image: url('../img/james-douglas-730.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.five{
+   background-image: url('../img/debashis-biswas-218653.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.six{
+   background-image: url('../img/rachel-park-366508.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.seven{
+   background-image: url('../img/joanna-kosinska-255355.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.eight{
+   background-image: url('../img/zoriana-stakhniv-347480.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
