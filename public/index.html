@@ -16,7 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
     <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-    <!-- <script src="js/jquery.easings.min.js"></script> -->
+    <script src="js/jquery.easings.min.js"></script>
 
     <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
     <!-- <script type="text/javascript" src="js/scrolloverflow.min.js"></script> -->
@@ -47,40 +47,12 @@ $(document).ready(function() {
 		menu: '#menu',
 		lockAnchors: true,
 		anchors:[],
-		navigation: true,
+		navigation: false,
 		navigationPosition: 'right',
-		navigationTooltips: [],
-		showActiveTooltip: false,
-		slidesNavigation: false,
-		slidesNavPosition: 'bottom',
-
-		//Scrolling
 		css3: true,
-		scrollingSpeed: 1000,
-		autoScrolling: true,
+		autoScrolling: false,
 		fitToSection: true,
-		fitToSectionDelay: 200,
-		scrollBar: false,
-		easing: 'easeInOutCubic',
-		easingcss3: 'ease',
-		loopBottom: false,
-		loopTop: false,
-		loopHorizontal: true,
-		continuousVertical: false,
-		continuousHorizontal: false,
-		scrollHorizontally: false,
-		interlockedSlides: false,
-		dragAndMove: false,
-		offsetSections: false,
-		resetSliders: false,
-		fadingEffect: true,
-		normalScrollElements: '#element1, .element2',
-		scrollOverflow: false,
-		scrollOverflowReset: false,
-		scrollOverflowOptions: null,
-		touchSensitivity: 15,
-		normalScrollElementTouchThreshold: 5,
-		bigSectionsDestination: null,
+	
 
 		//Accessibility
 		keyboardScrolling: true,
