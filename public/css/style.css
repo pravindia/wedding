@@ -77,3 +77,29 @@ body{
    font-weight: 400;
    font-size: 50px;
 }
+
+.three img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+}
+
+.three h3{
+   color:#fff;
+   font-family: 'Dancing Script', cursive;
+}
+
+.seven h1{
+   color:rgb(0, 0, 0);
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   margin-top: 300px;
+   font-weight: 400;
+   font-size: 50px;
+}
+
+.seven img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+}
