@@ -1,0 +1,92 @@
+$color-primary:#fff;
+$color-secondary:#fff;
+
+body{
+   margin: 0;
+}
+
+.section{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-attachment: fixed;
+}
+
+.one{
+   background-image: url('../img/1.jpeg');
+
+   &--text{
+      color:#fff;
+      font-family: 'Dancing Script', cursive;
+      float: right;
+      margin: 20px;
+      font-weight: 400;
+      font-size: 50px;
+   }
+}
+.two{
+   background: #59C173; 
+   background-image: linear-gradient(to right bottom, rgba(92, 38, 193, 0.6), rgba(161, 127, 224,.8), #59C173), url('../img/abigail-jones-439387.jpg'); 
+   // background-image: linear-gradient(to right, rgba(92, 38, 193, 0.6), rgba(161, 127, 224,.5)), url('../img/abigail-jones-439387.jpg');
+}
+
+.three{
+   background-image: url('../img/3.jpeg');
+}
+.four{ 
+   background-image: url('../img/4.jpeg');
+}
+.five{
+   background-image: url('../img/5.jpeg');
+}
+.six{
+   background-image: url('../img/6.jpeg');
+}
+.seven{
+   background-image: url('../img/7.jpeg');
+}
+.eight{
+   background-image: url('../img/8.jpeg');
+}
+
+
+
+.two h1{
+   color:#000000;
+   margin-top: 100px; 
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   position: absolute;
+   left: 25%;
+   bottom: 30px;
+   float: bottom;
+   margin: 20px;
+   font-weight: 400;
+   font-size: 50px;
+}
+
+.three img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+}
+
+.three h3{
+   color:#fff;
+   font-family: 'Dancing Script', cursive;
+}
+
+.seven h1{
+   color:rgb(0, 0, 0);
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   margin-top: 300px;
+   font-weight: 400;
+   font-size: 50px;
+}
+
+.seven img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+}
